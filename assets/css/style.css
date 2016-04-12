@@ -1,186 +1,254 @@
-.header {
-	background-color: #4aaaa5;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: white;
-	padding: 15px;
-	margin-left: 30px;
-	margin-right: 75%;
-	position: relative;
-	top: 20px;
-		
-}
-
-.header2 {
-	background-color: #4aaaa5;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: white;
-	padding: 15px;
-	position: relative;
-	margin-left: 30px;
-	margin-right: 75%;
-	
-}
-
-section {
-	position: absolute;
-	right: 20px;
-	top: 20px;
-}
-
-
-a:link, a:visited {
-	background-color: white;
+body {
+	background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/concrete_seamless.png");
+	font-size: 18px;
+	line-height: 34px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
-	padding: 14px 25px;
+	color: #777;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*general*/
+
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+}
+h1, 
+h2,
+h3,
+p {
+	margin-bottom: 20px;
+}
+p:last-child {
+	margin-bottom: 0;
+}
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: 700;
+	color: #4aaaa5;
+}
+h1 {
+	font-size: 30px;
+	line-height: 49px;
+	border-bottom: 3px solid #ddd;
+	padding-bottom: 20px;
+}
+h2,
+h3 {
+	font-size: 22px;
+}
+
+/*header*/
+
+#masthead {
+	background: #fff;
+	margin: 0 0 30px;
+	z-index: 99;
+	color: #fff;
+	overflow: auto;
+	border-bottom: 2px solid #ccc;
+	position: fixed;
+	width: 100%;
+}
+#logo {
+	width: 250px;		
+	height: 90px;
+	background: #4aaaa5;
+	float: left;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	line-height: 90px;
+	color: #fff;
+	font-weight: 700;
+	font-size: 30px;
 	text-decoration: none;
-	display: inline-grid;
+}
+nav {
+	float: right;
+	margin-top: 25px;
+}
+nav a {
+	color: #999;
+	text-decoration: none;
+	margin-left: 15px;
+	display: inline-block;
+	border-left: 1px solid #efefef;
+	padding-left: 15px;
+	line-height: 18px;
+}
+nav a:first-child {
+	border-left: 0 none;
 }
 
- #main-content {
-	background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/footer_lodyas.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	border: 5px;
-}
-
-
-#main-content img {
-	float: left;
-	margin: 200px 20px 20px 150px;
-	background: white;
-}
-
-#main-content  h2{
-	font-family: 'Georgia' Times, Times New Roman, serif;
-	color: #4aaaa5;
-	position: relative;
-	left: 100px;
-	top: 200px;
-	padding: 10px;
-	background: white;
-	margin-right: 600px;
-}
-
- p {
-	background: #ffffff;
-	color: #777777;
-	margin-left: 100px;
-	margin-right: 500px;
-	margin-top: 200px;
-	margin-bottom: 200px;
-	padding: 100px;
-}
-
-#background {
-	background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/footer_lodyas.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	border: 5px;
-}
-
-.aside {
-	position: relative;
-	left: 900px;
-	right: 100px;
-	bottom: 1075px;
-	background: white;
-	padding-bottom: 100px;
-	margin-right: 950px;
-	padding-top: 10px;
-}
-
-.aside h2 {
-	font-family: 'Georgia' Times, Times New Roman, serif;
-	color: #4aaaa5;
-	margin-left: 10px;
-}
-
-.aside img {
-	float: left;
-	padding: 10px;
-
-}
-
-.aside2 {
-	position: relative;
-	left: 55%;
-	bottom: 250px;
-	background: white;
-	padding-bottom: 75px;
-	padding-top: 5px;
-	margin-right: 965px;
-}
-
-.aside2 h2 {
-	font-family: 'Georgia' Times, Times New Roman, serif;
-	color: #4aaaa5;
-	margin-left: 10px;
-}
-
-.aside2 img {
-	float: left;
-	padding: 10px;
-}
-
-#contact {
-	position: relative;
-	top: 20px;
-	padding-top: 10px;
-	padding-bottom: 30px;
-	margin-left: 50px;
-	margin-right: 65%;
-	background: white;
-}
-
-#contact h2 {
-	font-family: 'Georgia' Times, Times New Roman, serif;
-	color: #4aaaa5;
-	position: relative;
-	left: 20px;
-}
-
-form {
-	position: relative;
-	left: 20px;
-}
-
-table {
-	background: white;
-}
-
-h2 {
-	position: 
-}
-
-th {
-	font-family: 'Georgia' Times, Times New Roman, serif;
-	color: #4aaaa5;
-}
-
-.aside3 {
-	position: relative;
-	left: 65%;
-	bottom: 750px;
-	background: white;
-	padding-bottom: 75px;
-	padding-top: 5px;
-	margin-right: 950px;
-}
-
-.aside3 h2 {
-	font-family: 'Georgia' Times, Times New Roman, serif;
-	color: #4aaaa5;
-	margin-left: 10px;
-}
-
-.aside3 img {
-	float: left;
-	padding: 10px;
-}
-
+/*footer*/
 
 footer {
-	background: #666666;
-	padding: 50px;
+	background: #666;
+	color: #fff;
+	padding: 30px 0;
+	clear: both;
+	border-top: 8px solid #4aaaa5;
+	color: #ccc;
+	font-size: 12px;
+	text-align: center;
+}
+
+/*sidebar*/
+
+.sidebar {
+	background: #fff;
+	padding: 30px;
+	width: 100%;
+	max-width: 270px;
+	float: right;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+h3,
+.sidebar h2 {
+	border-bottom: 2px solid #eee;
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+	line-height: 22px;
+}
+.social {
+	width: 62px;
+	height: 62px;
+	margin-top: 8px;
+	margin-right: 5px;
+}
+.social:last-child {
+	margin-right: 0;
+}
+
+/*main*/
+
+#main-container {
+	padding-top: 130px;
+}
+.main-section {
+	background: #fff;
+	padding: 30px;
+	margin: 0 0 40px 0;
+	width: 100%;
+	max-width: 650px;
+	float: left;
+	border: 1px solid #ddd;
+}
+
+/*portfolio page*/
+
+.work {
+	width: 274px;
+	overflow: auto;
+	position: relative;
+	float: left;
+	margin: 20px 0 25px;
+}
+.work:nth-child(even) {
+	margin-right: 40px;
+}
+.work img {
+	width: 100%;
+	border: 0 none;
+	opacity: .8;
+}
+.work h3 {
+	border-bottom: 0;
+	background: #4aaaa5;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	padding: 15px;
+	width: 100%;
+	bottom: 20px;
+	line-height: 30px;
+	margin-bottom: 0;
+	font-weight: 300;
+}
+.auth-image {
+	width: 200px;
+	height: auto;
+	margin-top: 10px;
+	float: left;
+	margin-right: 25px;
+}
+
+/*contact page*/
+
+#contact-form ul {
+	margin-bottom: 20px;
+}
+#contact-form li {
+	margin-bottom: 10px;
+}
+label,
+input[type=text],
+input[type=email],
+textarea {
+	display: block;
+	width: 100%;
+}
+input[type=text],
+input[type=email],
+textarea {
+	height: 35px;
+	border: 1px solid #ddd;
+	padding: 0 10px;
+	font-size: 14px;
+}
+textarea {
+	height: 200px;
+}
+input[type=submit] {
+	background: #4aaaa5;
+	border: 0 none;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px 30px;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+	.container {
+	width: 100%;
+	max-width: 640px;
+	margin: 0 auto;
+	clear: both;
+}
+	#masthead {
+		position: static;
+	}
+
+	nav {
+	float: center;
+	margin-top: 25px;
+}
+	nav a {
+	color: #999;
+	text-decoration: none;
+	margin-left: 15px;
+	display: inline-block;
+	border-left: 1px solid #efefef;
+	padding-left: 15px;
+	line-height: 18px;
+}
+	nav a:first-child {
+	border-left: 0 none;
+}
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 980px) {
+
 }
